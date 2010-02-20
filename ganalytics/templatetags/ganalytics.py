@@ -14,7 +14,6 @@ class GanalyticsNode(Node):
 
     def __init__(self, nodelist):
         self.nodelist = nodelist
-        self.tmpl = 
 
     def render(self, context):
         context.push()
